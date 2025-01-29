@@ -1,9 +1,24 @@
 *{
  margin: 0;
+ font-family: 'Poppins';
  padding: 0;
+ display: flex;
+ justify-content: center;
+ align-items: center;
 }
-
+body{
+ background-color: aliceblue;
+ width: 100%;
+ flex-direction: column;
+ height: 100vh;
+}
 h1{
  padding: 10px;
+ font-weight: bold;
  font-size: 6vw;
+}
+
+@font-face {
+ font-family: 'Poppins';
+ src: url(./font/Poppins-Regular.ttf);
 }
