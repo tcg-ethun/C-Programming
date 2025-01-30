@@ -8,3 +8,4 @@ scanf("%d",&c);
  printf("Result of Sum: %d",Sum);
 return 0;
 }
+
