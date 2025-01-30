@@ -5,5 +5,5 @@ int main(){
  scanf("%d",&y);
  A = x*y;
  printf(" The Area of Rectangle Result is : %d",A);
- return 0;
+ return 0; 
 }
