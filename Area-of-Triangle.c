@@ -4,6 +4,6 @@ float main(){
  scanf("%f",&a);
  scanf("%f",&b);
 T = 0.5*a*b;
-printf("%.2f",T);
+printf("The Area of Triangle Result is : %.2f",T);
 return 0;
 }
