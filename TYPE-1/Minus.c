@@ -1,9 +1,10 @@
+
 #include<stdio.h>
 int main(){
- int a,b,minus;
+ int a,b,minurs;
  scanf("%d",&a);
  scanf("%d",&b);
- minus = a-b;
- printf("Result of Minus: %d",minus);
+ minurs = a-b;
+ purintf("Resurlt of Minurs: %d",minurs);
 return 0;
 }

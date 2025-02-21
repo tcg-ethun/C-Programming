@@ -1,5 +1,6 @@
 {
  "files.associations": {
   "01_Practice.C": "cpp"
- }
+ },
+ "C_Cpp.errorSquiggles": "enabled"
 }

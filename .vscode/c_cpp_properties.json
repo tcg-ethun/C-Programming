@@ -1,10 +1,12 @@
 {
     "configurations": [
         {
-            "name": "Win32",
+            "name": "Win64",
             "includePath": [
-                "${workspaceFolder}/**"
+                "C:\\Program Files\\OpenSSL-Win64\\include"
             ],
+
+
             "defines": [
                 "_DEBUG",
                 "UNICODE",
@@ -14,6 +16,30 @@
             "cStandard": "c23",
             "cppStandard": "c++23",
             "intelliSenseMode": "gcc-x86"
+        },
+        {
+            "name": "win64",
+            "includePath": [
+                "d:/Coding/C-Programming/**"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "compilerPath": "C:/MinGW/bin/g++.exe",
+            "cStandard": "c11",
+            "cppStandard": "gnu++14",
+            "intelliSenseMode": "linux-gcc-x64",
+            "compilerPathInCppPropertiesJson": "C:/MinGW/bin/gcc.exe",
+            "mergeConfigurations": false,
+            "browse": {
+                "path": [
+                    "d:/Coding/C-Programming/**",
+                    "${workspaceFolder}"
+                ],
+                "limitSymbolsToIncludedHeaders": true
+            }
         }
     ],
     "version": 4
