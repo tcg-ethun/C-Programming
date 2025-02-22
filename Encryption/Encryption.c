@@ -14,8 +14,8 @@ void showProgress(long processed, long total) {
 
 // XOR Encryption/Decryption function
 void xorEncryptDecrypt(char *buffer, size_t length, int key) {
-    for (size_t i = 0; i < length; i++) {
-        buffer[i] ^= key;  // XOR each byte with the key
+    for(size_t i = 0; i < length; i++) {
+        buffer[i] = key;  // XOR each byte with the key
     }
 }
 
