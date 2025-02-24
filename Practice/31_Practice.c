@@ -5,7 +5,7 @@ float FarenHeight(float celcius);
 
    int main(){
 
-    float result = FarenHeight(0);
+    float result = FarenHeight(32);
  printf("FahrenHeight value : %.2f",result);
    return 0;
 }
