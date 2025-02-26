@@ -1,8 +1,8 @@
  
 #include<stdio.h> 
 
-void unlock();
-void tryAgain();
+int unlock();
+// int tryAgain();
 
    int main(){
    int input,i,password;
@@ -13,27 +13,43 @@ void tryAgain();
 
    if(input==password){
     unlock();
-    return 0;
    }
-
 else{
-  for(i=0;  ;i++){
+ for(i =0; ; i++){
+   printf("Match the password : ");
+   scanf("%d",&input);
+   if(input ==password){
+      unlock();
+   }
+ }
+
+   }
+   // return 0;
+}
+
+
+int unlock(){
+   int i ,password ,input;
+ printf("Congratulations ! Password Matched. \n \n \n");
+ for(i=0; ; i++){
+   int input,i,password;
+   printf("Enter new password : ");
+   scanf("%d",&password);
+   printf("Match the password : ");
+   scanf("%d",&input);
+
    if(input==password){
     unlock();
-    return 0;
-   } 
-   tryAgain();
-   printf("Enter the password Again : ");
+   }
+else{
+ for(i =0; ; i++){
+   printf("Match the password : ");
    scanf("%d",&input);
-  }
-}
+   if(input ==password){
+      unlock();
+   }
+ }
+   }
    return 0;
-}
-
-void unlock(){
- printf("Congratulations ! Password Matched . \n");
-}
-void tryAgain(){
- printf("Please try again :(  \n");
-
+ }
 }
