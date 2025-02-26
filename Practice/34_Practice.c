@@ -6,10 +6,11 @@ void tryAgain();
 
    int main(){
    int input,i,password;
-   printf("Enter Password : ");
+   printf("Enter new password : ");
    scanf("%d",&password);
    printf("Match the password : ");
    scanf("%d",&input);
+
    if(input==password){
     unlock();
     return 0;
