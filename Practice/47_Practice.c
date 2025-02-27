@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-    int x = 100; // A normal integer
+    int x = 10; // A normal integer
     int *p1 = &x;
     int **p2 = &p1;
     int ***p3 = &p2;
