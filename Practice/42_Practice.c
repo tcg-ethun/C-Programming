@@ -14,6 +14,8 @@
    printf("%u\n",&result);
    printf("%u\n",result);
    printf("\n");
+   printf("%d \n",*(&age));
+   printf("\n");
 
    return 0;
 }
