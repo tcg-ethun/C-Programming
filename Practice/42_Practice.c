@@ -1,21 +1,24 @@
- 
-#include<stdio.h> 
+#include <stdio.h>
 
-   int main(){
-   int age = 20;
-   int *ptr = &age;
-   int result = *ptr;
-   printf("%p \n",&age);
-   printf("%u \n",&age);
-   printf("\n");
-   printf("%u \n",*ptr);
-   printf("%u\n",&*ptr);
-   printf("\n");
-   printf("%u\n",&result);
-   printf("%u\n",result);
-   printf("\n");
-   printf("%d \n",*(&age));
-   printf("\n");
+int main() {
+    int age = 20;
+    int *ptr = &age;
+    int result = *ptr;
 
-   return 0;
+    printf("Address of age: %p \n", (void *)&age); // Use %p and cast to (void *)
+    printf("Address of age as unsigned int: %lu \n", (unsigned long)&age); // Optionally, %lu for large values
+    printf("\n");
+
+    printf("Pointer value (value stored at ptr): %d \n", *ptr); // Use %d
+    printf("Address stored in pointer (ptr): %p\n", (void *)ptr); // Use %p
+    printf("\n");
+
+    printf("Address of result variable: %p\n", (void *)&result); // Use %p
+    printf("Value of result variable: %d\n", result); // Use %d
+    printf("\n");
+
+    printf("Value of age using pointer dereferencing: %d \n", *(&age)); // %d is correct
+    printf("\n");
+
+    return 0;
 }
