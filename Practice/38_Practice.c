@@ -2,16 +2,17 @@
 #include<stdio.h> 
 
 
-void countdown(int n){
-      if(n == 11){
-        return;
-      }
-      printf("%d \n",n);
-      countdown(n+1);
+void countdown(int n);
+
+    int main(){
+  countdown(1);
+    return 0;
 }
 
-
-   int main(){
-         countdown(1);
-   return 0;
+void countdown(int n){
+   if(n==10){
+     return;
+   }
+   printf("%d \n",n);
+   countdown(n+1);
 }
