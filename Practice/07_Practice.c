@@ -1,6 +1,8 @@
  
 #include<stdio.h> 
 
+  //Uses of int , float and char data type
+
    int main(){
    int items = 50;
    float price = 9.99, total;

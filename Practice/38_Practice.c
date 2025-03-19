@@ -5,7 +5,7 @@
 void countdown(int n);
 
     int main(){
-  countdown(1);
+  countdown(5);
     return 0;
 }
 

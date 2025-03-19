@@ -1,6 +1,8 @@
  
 #include<stdio.h> 
 
+//Rectangle Perfrom 
+
    int main(){
    int length ,width , area;
    printf(" Type Lenght:");

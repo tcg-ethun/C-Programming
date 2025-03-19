@@ -4,7 +4,7 @@
 int main(){
  char name[5];
  int age;
-  char school[100];
+  char school[200];
  printf("Enter name :",name);
  scanf("%s",&name);
  printf("Enter age :",age);
